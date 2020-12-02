@@ -1,4 +1,4 @@
-package com.digimaster.mybackend;
+package com.digimaster.mybackend.movie;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

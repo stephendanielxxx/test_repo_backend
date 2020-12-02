@@ -1,4 +1,4 @@
-package com.digimaster.mybackend;
+package com.digimaster.mybackend.movie;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

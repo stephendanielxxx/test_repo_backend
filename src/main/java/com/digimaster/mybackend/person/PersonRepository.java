@@ -1,4 +1,4 @@
-package com.digimaster.mybackend;
+package com.digimaster.mybackend.person;
 
 import javax.transaction.Transactional;
 
