@@ -1,4 +1,4 @@
-package com.digimaster.mybackend;
+package com.digimaster.mybackend.person;
 
 import java.io.IOException;
 import java.nio.file.Files;
