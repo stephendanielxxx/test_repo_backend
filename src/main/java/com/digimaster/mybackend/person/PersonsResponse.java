@@ -1,4 +1,4 @@
-package com.digimaster.mybackend;
+package com.digimaster.mybackend.person;
 
 public class PersonsResponse<T> {
 	private int code;
