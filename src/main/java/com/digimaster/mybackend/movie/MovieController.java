@@ -66,4 +66,13 @@ public class MovieController {
 		return movieService.getMoviesByYear(year, page, count);
 	}
 	
+	@GetMapping("/findByTitle")
+	public MovieModel findMovieByTitle(@RequestParam String title) {
+		return movieService.getMovieByTitle(title);
+	}
+	
+	@GetMapping("/find/title")
+	public List<MovieModel> findMoviesByTitle(@RequestParam String title){
+		return movieService.getMoviesByTitle(title);
+	}
 }

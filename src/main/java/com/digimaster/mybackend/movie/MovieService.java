@@ -84,4 +84,12 @@ public class MovieService {
 		Pageable pagination = PageRequest.of(page, count);
 		return movieRepository.findAllByReleaseYear(year, pagination);
 	}
+	
+	public MovieModel getMovieByTitle(String title) {
+		return movieRepository.findMovieByTitle(title);
+	}
+	
+	public List<MovieModel> getMoviesByTitle(String title){
+		return movieRepository.findMoviesByTitle(title);
+	}
 }
