@@ -9,6 +9,7 @@ import javax.persistence.Table;
 
 import com.sun.istack.NotNull;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,10 +21,24 @@ public class MovieModel {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@ApiModelProperty(notes = "Auto increment ID")
 	private int id;
 	@Column(name = "title")
 	@NotNull
+	@ApiModelProperty(notes = "Movie title, String, Not Null")
 	private String title;
+	@Column(name = "genre")
+	@NotNull
+	@ApiModelProperty(notes = "Movie genre, String, Not Null")
+	private String genre;
+	@Column(name = "release_year")
+	@NotNull
+	@ApiModelProperty(notes = "Movie release year, String, Not Null")
+	private String releaseYear;
+	@Column
+	@ApiModelProperty(notes = "Movie image, String, only name")
+	private String image;
+	
 	public int getId() {
 		return id;
 	}
@@ -54,12 +69,4 @@ public class MovieModel {
 	public void setImage(String image) {
 		this.image = image;
 	}
-	@Column(name = "genre")
-	@NotNull
-	private String genre;
-	@Column(name = "release_year")
-	@NotNull
-	private String releaseYear;
-	@Column
-	private String image;
 }
