@@ -24,4 +24,14 @@ public class UserService {
 			return userRepository.save(newUser);
 		}
 	}
+	
+	public boolean deleteUsersWithCrud() {
+		userRepository.deleteAll();
+		return true;
+	}
+	
+	public boolean deleteUsersWithJpa() {
+		userRepository.deleteAllInBatch();
+		return true;
+	}
 }
