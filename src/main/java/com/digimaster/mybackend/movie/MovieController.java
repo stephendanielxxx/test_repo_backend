@@ -1,6 +1,10 @@
 package com.digimaster.mybackend.movie;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Slice;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -41,4 +45,25 @@ public class MovieController {
 		movieService.deleteMovieByTitle(title);
 		return true;
 	}
+	
+	@GetMapping("/all")
+	public List<MovieModel> getAllMovies(){
+		return movieService.getAllMovies();
+	}
+	
+	@GetMapping("/page")
+	public Page<MovieModel> getMoviePaging(@RequestParam int page, @RequestParam int count){
+		return movieService.getMovies(page, count);
+	}
+	
+	@GetMapping("/find")
+	public List<MovieModel> findMovies(@RequestParam String genre, @RequestParam int page, @RequestParam int count){
+		return movieService.getMovies(genre, page, count);
+	}
+	
+	@GetMapping("/findByYear")
+	public Slice<MovieModel> findMoviesByYear(@RequestParam String year, @RequestParam int page, @RequestParam int count){
+		return movieService.getMoviesByYear(year, page, count);
+	}
+	
 }

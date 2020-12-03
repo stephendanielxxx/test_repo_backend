@@ -1,10 +1,14 @@
 package com.digimaster.mybackend.movie;
 
+import java.util.List;
+
 import javax.transaction.Transactional;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Slice;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface MovieRepository extends CrudRepository<MovieModel, Integer>{
+public interface MovieRepository extends JpaRepository<MovieModel, Integer>{
 
 	MovieModel getMovieModelByTitleAndGenre(String title, String genre);
 	
@@ -12,4 +16,8 @@ public interface MovieRepository extends CrudRepository<MovieModel, Integer>{
 
 	@Transactional
 	void deleteMovieModelByTitle(String title);
+	
+	List<MovieModel> findAllByGenre(String name, Pageable pageable);
+	
+	Slice<MovieModel> findAllByReleaseYear(String year, Pageable pageable);
 }
