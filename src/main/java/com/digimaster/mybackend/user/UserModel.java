@@ -1,14 +1,21 @@
 package com.digimaster.mybackend.user;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import lombok.Data;
 
 @Entity
 @Table(name = "tb_user")
+@Data
 public class UserModel {
 	
 	@Id
@@ -19,25 +26,8 @@ public class UserModel {
 	private String email;
 	@Column
 	private String password;
-	
-	public int getUserId() {
-		return userId;
-	}
-	public void setUserId(int userId) {
-		this.userId = userId;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-	
-	
+	@OneToMany()
+	@JoinColumn(name = "user_id")
+	private List<MovieFavoriteModel> movieFavoriteModels;
+
 }
