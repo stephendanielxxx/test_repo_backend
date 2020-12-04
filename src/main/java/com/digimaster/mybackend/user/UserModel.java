@@ -7,6 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name = "tb_user")
 public class UserModel {
@@ -18,6 +20,7 @@ public class UserModel {
 	@Column
 	private String email;
 	@Column
+	@JsonIgnore
 	private String password;
 	
 	public int getUserId() {
