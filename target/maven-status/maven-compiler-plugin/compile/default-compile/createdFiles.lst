@@ -1,0 +1,12 @@
+com/digimaster/mybackend/PersonRepository.class
+com/digimaster/mybackend/PersonsResponse.class
+com/digimaster/mybackend/MovieService.class
+com/digimaster/mybackend/MovieController.class
+com/digimaster/mybackend/ApiController.class
+com/digimaster/mybackend/SpringConfig.class
+com/digimaster/mybackend/MovieRepository.class
+com/digimaster/mybackend/MovieModel.class
+com/digimaster/mybackend/MybackendApplication.class
+com/digimaster/mybackend/PersonModel.class
+com/digimaster/mybackend/PersonService.class
+com/digimaster/mybackend/BaseResponse.class
