@@ -2,11 +2,7 @@ package com.digimaster.mybackend;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.stereotype.Service;
-
-import com.google.gson.Gson;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -24,7 +20,6 @@ public class UserService {
                 .baseUrl(API_BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-        System.out.println("Initiate retrofit");
         userRepository = retrofit.create(UserRepository.class);
     }
 	
@@ -59,14 +54,12 @@ public class UserService {
 				public void onResponse(Call<List<UserResponseModel>> call, Response<List<UserResponseModel>> response) {
 					// TODO Auto-generated method stub
 					userResponseModels = response.body();
-					System.out.println("on response");
 				}
 				
 				@Override
 				public void onFailure(Call<List<UserResponseModel>> call, Throwable t) {
 					// TODO Auto-generated method stub
 					userResponseModels = new ArrayList<>();
-					System.out.println("on failure");
 				}
 			});
 			return userResponseModels;

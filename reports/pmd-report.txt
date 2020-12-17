@@ -1,0 +1,348 @@
+src/main/java/com/digimaster/mybackend/ApiController.java:17:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/ApiController.java:17:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/ApiController.java:17:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/main/java/com/digimaster/mybackend/ApiController.java:17:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/main/java/com/digimaster/mybackend/ApiController.java:19:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/ApiController.java:19:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/ApiController.java:27:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:27:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:32:	MethodArgumentCouldBeFinal: Parameter 'text' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:32:	MethodArgumentCouldBeFinal: Parameter 'text' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:37:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:37:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:42:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:42:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:50:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:50:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:58:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:58:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:58:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:58:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:63:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:63:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:63:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:63:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:65:	LocalVariableCouldBeFinal: Local variable 'person' could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:65:	LocalVariableCouldBeFinal: Local variable 'person' could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:67:	LocalVariableCouldBeFinal: Local variable 'baseResponse' could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:67:	LocalVariableCouldBeFinal: Local variable 'baseResponse' could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:69:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/digimaster/mybackend/ApiController.java:69:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/digimaster/mybackend/ApiController.java:90:	CommentSize: Comment is too large: Line too long
+src/main/java/com/digimaster/mybackend/ApiController.java:90:	CommentSize: Comment is too large: Line too long
+src/main/java/com/digimaster/mybackend/ApiController.java:101:	LocalVariableCouldBeFinal: Local variable 'personsResponse' could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:101:	LocalVariableCouldBeFinal: Local variable 'personsResponse' could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:111:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:111:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:116:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:116:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:116:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:116:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:116:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:116:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:121:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:121:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:121:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:121:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:126:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:126:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:132:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:132:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:138:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:138:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:138:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:138:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/ApiController.java:138:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/ApiController.java:138:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/BaseResponse.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/BaseResponse.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/BaseResponse.java:3:	DataClass: The class 'BaseResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/digimaster/mybackend/BaseResponse.java:3:	DataClass: The class 'BaseResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/digimaster/mybackend/BaseResponse.java:12:	MethodArgumentCouldBeFinal: Parameter 'code' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/BaseResponse.java:12:	MethodArgumentCouldBeFinal: Parameter 'code' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/BaseResponse.java:18:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/BaseResponse.java:18:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/BaseResponse.java:24:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/BaseResponse.java:24:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/BaseResponse.java:30:	MethodArgumentCouldBeFinal: Parameter 'data' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/BaseResponse.java:30:	MethodArgumentCouldBeFinal: Parameter 'data' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/MovieController.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/MovieController.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/MovieController.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/MovieController.java:20:	MethodArgumentCouldBeFinal: Parameter 'movieModels' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:20:	MethodArgumentCouldBeFinal: Parameter 'movieModels' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:25:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:25:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:25:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieController.java:25:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieController.java:30:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:30:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:30:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:30:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:35:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:35:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:40:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieController.java:40:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:19:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/MovieModel.java:19:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/MovieModel.java:19:	DataClass: The class 'MovieModel' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+src/main/java/com/digimaster/mybackend/MovieModel.java:19:	DataClass: The class 'MovieModel' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+src/main/java/com/digimaster/mybackend/MovieModel.java:23:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieModel.java:23:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieModel.java:30:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:30:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:30:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieModel.java:30:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieModel.java:36:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:36:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:42:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:42:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:48:	MethodArgumentCouldBeFinal: Parameter 'releaseYear' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:48:	MethodArgumentCouldBeFinal: Parameter 'releaseYear' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:54:	MethodArgumentCouldBeFinal: Parameter 'image' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:54:	MethodArgumentCouldBeFinal: Parameter 'image' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieModel.java:59:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/digimaster/mybackend/MovieModel.java:59:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/digimaster/mybackend/MovieModel.java:62:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/digimaster/mybackend/MovieModel.java:62:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/digimaster/mybackend/MovieModel.java:64:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/digimaster/mybackend/MovieModel.java:64:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/digimaster/mybackend/MovieService.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/MovieService.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/MovieService.java:18:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/MovieService.java:18:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/MovieService.java:20:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/MovieService.java:20:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/MovieService.java:22:	MethodArgumentCouldBeFinal: Parameter 'movies' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:22:	MethodArgumentCouldBeFinal: Parameter 'movies' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:26:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:26:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:26:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieService.java:26:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieService.java:27:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/MovieService.java:27:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/MovieService.java:30:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:30:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:30:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:30:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:34:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:34:	MethodArgumentCouldBeFinal: Parameter 'genre' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:38:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:38:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:42:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:42:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:42:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:42:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:42:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieService.java:42:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/MovieService.java:48:	LocalVariableCouldBeFinal: Local variable 'currentPerson' could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:48:	LocalVariableCouldBeFinal: Local variable 'currentPerson' could be declared final
+src/main/java/com/digimaster/mybackend/MovieService.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/MovieService.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/MovieService.java:50:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/MovieService.java:50:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/MovieService.java:50:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/MovieService.java:50:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/MovieService.java:51:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/MovieService.java:51:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/MovieService.java:58:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/digimaster/mybackend/MovieService.java:58:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/digimaster/mybackend/MybackendApplication.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/digimaster/mybackend/MybackendApplication.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/digimaster/mybackend/MybackendApplication.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/MybackendApplication.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:12:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/PersonModel.java:12:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/PersonModel.java:12:	DataClass: The class 'PersonModel' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+src/main/java/com/digimaster/mybackend/PersonModel.java:12:	DataClass: The class 'PersonModel' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+src/main/java/com/digimaster/mybackend/PersonModel.java:15:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonModel.java:15:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonModel.java:28:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:28:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:34:	MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:34:	MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:40:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:40:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:46:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:46:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:46:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonModel.java:46:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonModel.java:52:	MethodArgumentCouldBeFinal: Parameter 'profile' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonModel.java:52:	MethodArgumentCouldBeFinal: Parameter 'profile' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/PersonService.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/PersonService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/PersonService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/PersonService.java:19:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/PersonService.java:19:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/PersonService.java:25:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:25:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:36:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/digimaster/mybackend/PersonService.java:36:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/digimaster/mybackend/PersonService.java:40:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:40:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:40:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:40:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:40:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:40:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:46:	LocalVariableCouldBeFinal: Local variable 'currentPerson' could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:46:	LocalVariableCouldBeFinal: Local variable 'currentPerson' could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:48:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/PersonService.java:48:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/PersonService.java:48:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:48:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:56:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/digimaster/mybackend/PersonService.java:56:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/digimaster/mybackend/PersonService.java:60:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:60:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:64:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:64:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:68:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:68:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:68:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:68:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:69:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/PersonService.java:69:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/PersonService.java:72:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:72:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:72:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:72:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:74:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/PersonService.java:74:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/PersonService.java:75:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/PersonService.java:75:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/PersonService.java:75:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/PersonService.java:75:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/PersonService.java:81:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:81:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:85:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:85:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:85:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:85:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:93:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:93:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:97:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:97:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:97:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:97:	MethodArgumentCouldBeFinal: Parameter 'personModel' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:97:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:97:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:98:	LocalVariableCouldBeFinal: Local variable 'currentPerson' could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:98:	LocalVariableCouldBeFinal: Local variable 'currentPerson' could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:99:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:99:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:100:	LocalVariableCouldBeFinal: Local variable 'updatedPerson' could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:100:	LocalVariableCouldBeFinal: Local variable 'updatedPerson' could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:101:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:101:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:102:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:102:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:103:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:103:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/PersonService.java:105:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/PersonService.java:105:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/PersonService.java:111:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:111:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:111:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:111:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/PersonService.java:116:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonService.java:116:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:3:	DataClass: The class 'PersonsResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:3:	DataClass: The class 'PersonsResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:12:	MethodArgumentCouldBeFinal: Parameter 'code' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:12:	MethodArgumentCouldBeFinal: Parameter 'code' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:18:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:18:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:24:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:24:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:30:	MethodArgumentCouldBeFinal: Parameter 'data' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/PersonsResponse.java:30:	MethodArgumentCouldBeFinal: Parameter 'data' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/SpringConfig.java:8:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/SpringConfig.java:8:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/SpringConfig.java:11:	MethodArgumentCouldBeFinal: Parameter 'registry' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/SpringConfig.java:11:	MethodArgumentCouldBeFinal: Parameter 'registry' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/SpringConfig.java:13:	LocalVariableCouldBeFinal: Local variable 'resources' could be declared final
+src/main/java/com/digimaster/mybackend/SpringConfig.java:13:	LocalVariableCouldBeFinal: Local variable 'resources' could be declared final
+src/main/java/com/digimaster/mybackend/SpringConfig.java:17:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/SpringConfig.java:17:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/digimaster/mybackend/UserController.java:13:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/UserController.java:13:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/digimaster/mybackend/UserController.java:15:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/UserController.java:15:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/UserController.java:23:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserController.java:23:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserController.java:28:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserController.java:28:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserResponseModel.java:8:	TooManyFields: Too many fields
+src/main/java/com/digimaster/mybackend/UserResponseModel.java:8:	TooManyFields: Too many fields
+src/main/java/com/digimaster/mybackend/UserResponseModel.java:12:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/UserResponseModel.java:12:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/digimaster/mybackend/UserService.java:15:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/UserService.java:15:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/UserService.java:15:	ImmutableField: Private field 'userRepository' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/digimaster/mybackend/UserService.java:15:	ImmutableField: Private field 'userRepository' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/digimaster/mybackend/UserService.java:16:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/UserService.java:16:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/digimaster/mybackend/UserService.java:16:	LongVariable: Avoid excessively long variable names like userResponseModels
+src/main/java/com/digimaster/mybackend/UserService.java:16:	LongVariable: Avoid excessively long variable names like userResponseModels
+src/main/java/com/digimaster/mybackend/UserService.java:19:	LocalVariableCouldBeFinal: Local variable 'retrofit' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:19:	LocalVariableCouldBeFinal: Local variable 'retrofit' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:28:	LocalVariableCouldBeFinal: Local variable 'call' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:28:	LocalVariableCouldBeFinal: Local variable 'call' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:29:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/UserService.java:29:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/UserService.java:29:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:29:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:30:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/UserService.java:30:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/UserService.java:30:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/UserService.java:30:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/UserService.java:31:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/digimaster/mybackend/UserService.java:31:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/digimaster/mybackend/UserService.java:37:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:37:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:39:	LocalVariableCouldBeFinal: Local variable 'call' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:39:	LocalVariableCouldBeFinal: Local variable 'call' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:40:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/UserService.java:40:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/UserService.java:40:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:40:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:41:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/UserService.java:41:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/digimaster/mybackend/UserService.java:41:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/UserService.java:41:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/UserService.java:42:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/digimaster/mybackend/UserService.java:42:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/digimaster/mybackend/UserService.java:47:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:47:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:49:	LocalVariableCouldBeFinal: Local variable 'call' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:49:	LocalVariableCouldBeFinal: Local variable 'call' could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:54:	MethodArgumentCouldBeFinal: Parameter 'call' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:54:	MethodArgumentCouldBeFinal: Parameter 'call' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:54:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:54:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:60:	MethodArgumentCouldBeFinal: Parameter 'call' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:60:	MethodArgumentCouldBeFinal: Parameter 'call' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:60:	MethodArgumentCouldBeFinal: Parameter 't' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:60:	MethodArgumentCouldBeFinal: Parameter 't' is not assigned and could be declared final
+src/main/java/com/digimaster/mybackend/UserService.java:60:	ShortVariable: Avoid variables with short names like t
+src/main/java/com/digimaster/mybackend/UserService.java:60:	ShortVariable: Avoid variables with short names like t
+src/main/java/com/digimaster/mybackend/UserService.java:65:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/UserService.java:65:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/digimaster/mybackend/UserService.java:66:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/digimaster/mybackend/UserService.java:66:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/com/digimaster/mybackend/MybackendApplicationTests.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/digimaster/mybackend/MybackendApplicationTests.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/digimaster/mybackend/MybackendApplicationTests.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/com/digimaster/mybackend/MybackendApplicationTests.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/com/digimaster/mybackend/MybackendApplicationTests.java:10:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/digimaster/mybackend/MybackendApplicationTests.java:10:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/digimaster/mybackend/MybackendApplicationTests.java:10:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/digimaster/mybackend/MybackendApplicationTests.java:10:	UncommentedEmptyMethodBody: Document empty method body
